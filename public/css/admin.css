@@ -1,0 +1,122 @@
+input {
+    margin-bottom: 15px;
+}
+
+body *{
+    font-family: 'Poppins', sans-serif;
+}
+
+.web_container {
+    display: flex;
+    /*flex-wrap: wrap;*/
+}
+
+.web_container > div:first-child {
+    width: 300px;
+}
+
+.web_container > div:last-child {
+    /*flex-basis: 2700px;*/
+}
+
+.sidebar {
+    height: calc(100vh - 66px);
+    border-right: 10px solid #00446A;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    margin-top: 15px;
+    padding: 0 20px
+}
+
+.sidebar li {
+    width: 100%;
+    margin-left: 0;
+
+}
+
+.sidebar li a {
+    text-align: left;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.main_content {
+    padding: 20px;
+    overflow-y: scroll;
+    height: calc(100vh - 66px);
+    width: 100%;
+}
+
+table th {
+    text-align: center;
+    color: #00446A !important;
+}
+
+table td {
+    padding: 5px 15px !important;
+}
+
+.borde_azul {
+    border-left: 10px solid #00446A;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    border-radius: 20px 0  0 20px;
+}
+
+.borde_girasol {
+    border-left: 10px solid #FDCC0C;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    border-radius: 20px 0  0 20px;
+}
+
+.borde_sorgo {
+    border-left: 10px solid #6D313D;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    border-radius: 20px 0  0 20px;
+}
+
+.borde_maiz {
+    border-left: 10px solid #DD8D0E;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    border-radius: 20px 0  0 20px;
+}
+
+.colorZeta {
+    color: #00446A !important;
+}
+
+h1{
+    color: #00446A !important;
+}
+
+.min{
+    width: 10px;
+    white-space: nowrap;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    border-bottom: 10px solid #00446A;
+}
+
+textarea{
+    resize: none;
+    margin-bottom: 15px;
+}
+
+input,textarea{
+
+}

@@ -1,0 +1,60 @@
+@media (max-width: 1270px) {
+    .btn_menu {
+        display: flex;
+    }
+
+    .link_menu {
+        display: block;
+    }
+    .navbarX ul{
+        display: none;
+    }
+    .navbarx_ul{
+        display: block;
+        position:fixed;
+        top:2%;
+        bottom:2%;
+        left:2%;
+        right:2%;
+        border-radius: 20px;
+        border:10px solid #00446A;
+        max-width: 400px;
+        margin: auto;
+        background-color: #f8f9fa;
+        padding-left: 0;
+    }
+    .borde_azul {
+        border-left: 10px solid #00446A;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        border-radius: 20px 0  0 20px;
+    }
+
+    .borde_girasol {
+        border-left: 10px solid #FDCC0C;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        border-radius: 20px 0  0 20px;
+    }
+
+    .borde_sorgo {
+        border-left: 10px solid #6D313D;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        border-radius: 20px 0  0 20px;
+    }
+
+    .borde_maiz {
+        border-left: 10px solid #DD8D0E;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        border-radius: 20px 0  0 20px;
+    }
+
+    .producto .row{
+        padding:5px;
+    }
+    .card_producto {
+        width: 100%;
+    }
+}
