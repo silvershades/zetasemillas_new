@@ -1,7 +1,7 @@
 @extends('web.index')
 
 @section('content')
-    <div class="divisorZeta mb-3 flex align-items-end justify-content-end px-3" style="background: url('../img/divisorzeta_girasol.png') no-repeat center; background-size: cover">
+    <div class="divisorZeta mb-3 flex align-items-end justify-content-end px-3" style="background: url('{{asset('img/divisorzeta_girasol.png' )}}') no-repeat center; background-size: cover">
 
         @if($product->tipo == "GIRASOL")
             <h2 class="text-white fw-bold m-0">GIRASOLES</h2>

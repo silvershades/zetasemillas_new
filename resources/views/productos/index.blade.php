@@ -40,7 +40,7 @@
                 </nav>
             </div>
             <div class="col-sm-12 col-md-9 ">
-                <div class="divisorZeta mb-3 flex align-items-end justify-content-end px-3" style="background: url('../img/divisorzeta_girasol.png') no-repeat center">
+                <div class="divisorZeta mb-3 flex align-items-end justify-content-end px-3" style="background: url('{{asset('img/divisorzeta_girasol.png' )}}') no-repeat center">
                     <h2 class="text-white fw-bold m-0" >GIRASOLES</h2>
                 </div>
                 <div class="row " id="gir">
@@ -79,7 +79,7 @@
                 </div>
                 <div class="row " id="sor">
                     <div class="col-sm-12  mb-4 ">
-                        <div class="divisorZeta mb-3 flex align-items-end justify-content-end px-3" style="background: url('../img/divisorzeta_girasol.png') no-repeat center">
+                        <div class="divisorZeta mb-3 flex align-items-end justify-content-end px-3" style="background: url('{{asset('img/divisorzeta_girasol.png' )}}') no-repeat center">
                             <h2 class="text-white fw-bold m-0" >SORGOS</h2>
                         </div>
                         <p class="m-0 d-inline-block">Cantidad de productos: {{$sorgos->count()}}</p>
@@ -115,7 +115,7 @@
                 </div>
                 <div class="row " id="mai">
                     <div class="col-sm-12  mb-4 ">
-                        <div class="divisorZeta mb-3 flex align-items-end justify-content-end px-3" style="background: url('../img/divisorzeta_girasol.png') no-repeat center">
+                        <div class="divisorZeta mb-3 flex align-items-end justify-content-end px-3" style="background: url('{{asset('img/divisorzeta_girasol.png' )}}') no-repeat center">
                             <h2 class="text-white fw-bold m-0" >MAICES</h2>
                         </div>
                         <p class="m-0 d-inline-block">Cantidad de productos: {{$maices->count()}}</p>
