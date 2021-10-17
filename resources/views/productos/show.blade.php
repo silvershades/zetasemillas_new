@@ -1,7 +1,16 @@
 @extends('web.index')
 
 @section('content')
+    <div class="divisorZeta mb-3 flex align-items-end justify-content-end px-3" style="background: url('../img/divisorzeta_girasol.png') no-repeat center; background-size: cover">
 
+        @if($product->tipo == "GIRASOL")
+            <h2 class="text-white fw-bold m-0">GIRASOLES</h2>
+        @elseif($product->tipo == "SORGO")
+            <h2 class="text-white fw-bold m-0">SORGOS</h2>
+        @elseif($product->tipo == "MAIZ")
+            <h2 class="text-white fw-bold m-0">MAICES</h2>
+        @endif
+    </div>
     <article class="container" style="margin-top: 20px;margin-bottom: 100px">
         <a href="{{route("products.index")}}" class="btn btn-link"><i class="fas fa-undo"></i> Volver a productos</a>
         <h1 class="colorZeta fs-1 mb-3">{{$product->nombre}}<i class="far fa-registered"></i>
@@ -22,7 +31,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-8">
-                <h2  class="fs-5"><span class="colorZeta  fw-bold">Descripción </span> {{$product->descripcion}}</h2>
+                <h2 class="fs-5"><span class="colorZeta  fw-bold">Descripción </span> {{$product->descripcion}}</h2>
                 <p class="fs-5 "><span class="colorZeta  fw-bold">Presentación </span> {{$product->presentacion_semillas}} - <span
                         class="text-secondary">{{$product->presentacion_kg_bolsa}}</span>
                 </p>
