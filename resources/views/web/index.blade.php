@@ -7,24 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{csrf_token()}}">
 
-    <meta name="description" content="New platform to post ideas for Dota 2 from the community. Join us and post your imagination.">
+    <meta name="description" content="Zeta semillas">
     <link rel="canonical" href="http://zetasemillas.com.ar/"/>
 {{--    <meta name="robots" content="index">--}}
 <!--TODO ver tags -->
     <meta property="og:site_name" content="ZETA SEMILLAS">
     <meta property="og:title" content="ZETA SEMILLAS"/>
-    <meta property="og:description" content="New platform to post ideas for Dota 2 from the community. Join us and post your imagination."/>
+    <meta property="og:description" content="Zeta semillas"/>
     <meta property="og:image" content="{{asset('img/logo.png')}}">
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://zetasemillas.com.ar"/>
     <title>ZETA SEMILLAS</title>
     <link rel="icon" href="{{asset('img/favicon.png')}}">
 
-    <link rel="stylesheet" href="{{asset('bootstrap-5.0.0/css/bootstrap.css')}}">
-    <link rel="stylesheet" href="{{asset('css/styles.css')}}?rnx=336">
-    <link rel="stylesheet" href="{{asset('fontawesome/css/all.css')}}">
-    <link rel="stylesheet" href="{{asset('css/animations.css')}}">
-    <link rel="stylesheet" href="{{asset('css/resize.css')}}">
+    <link rel="stylesheet" href="{{asset('/bootstrap-5.0.0/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/styles.css')}}?rnx=336">
+    <link rel="stylesheet" href="{{asset('/fontawesome/css/all.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/animations.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/resize.css')}}">
 
 
 {{--    <link rel="preconnect" href="https://fonts.gstatic.com">--}}
