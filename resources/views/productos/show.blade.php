@@ -10,7 +10,14 @@
         <div class="row mb-4">
             <div class="col-sm-12 col-md-4">
                 <div class="imagen_producto">
-                    <img class="img-fluid" src="{{asset("img/girasoles.png")}}" alt="girasol zeta semilla" style="max-height: 300px">
+                    @if($product->tipo == "GIRASOL")
+                        <img class="img-fluid" src="{{asset("img/girasoles.png")}}" alt="girasol zeta semilla" style="max-height: 300px">
+                    @elseif($product->tipo == "SORGO")
+                        <img class="img-fluid" src="{{asset("img/sorgo.png")}}" alt="sorgo zeta semilla" style="max-height: 300px">
+                    @elseif($product->tipo == "MAIZ")
+                        <img class="img-fluid" src="{{asset("img/maices.png")}}" alt="maiz zeta semilla" style="max-height: 300px">
+                    @endif
+
                     <p class="fs-7 text-secondary">Imagen a modo ilustrativo</p>
                 </div>
             </div>

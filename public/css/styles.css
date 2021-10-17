@@ -652,7 +652,18 @@ footer a {
 }
 
 .card_textura_girasol{
-    background: #ffc107  url("../img/textura_girasol.png") no-repeat ;
+    background: #EEEEEE;
+}
+
+.divisorZeta{
+    height: 110px;
+    width: 100%;
     background-size: cover;
-    background-blend-mode: color-burn;
+    display: flex;
+
+}
+
+.divisorZeta h2{
+    font-size: 4rem;
+    line-height: 2.7rem;
 }

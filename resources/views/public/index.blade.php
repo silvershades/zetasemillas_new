@@ -9,7 +9,6 @@
         <div class="header_banner">
             <div>
                 <h1 class="mb-0 text-white text-center ">{!! $textos->texto_1!!}</h1>
-
             </div>
         </div>
     </header>
@@ -30,7 +29,7 @@
                     <p class="text-center">SORGOS</p>
                 </a>
                 <a href="{{route("products.index")}}" class="text-dark bg-white p-2 m-2 shadow-sm" style="max-width: 350px;border-radius: 2px">
-                    <img src="{{asset("img/girasoles.png")}}" alt="imagen semilla zeta semillas" class="img-fluid">
+                    <img src="{{asset("img/maices.png")}}" alt="imagen semilla zeta semillas" class="img-fluid">
                     <p class="text-center">MAIZ</p>
                 </a>
             </div>
