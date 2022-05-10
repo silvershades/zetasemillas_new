@@ -43,7 +43,8 @@
             <div class="d-flex align-items-center justify-content-center" style="min-height: 500px">
                 <div class="text-center">
                     <p class="fs-1 text-white text-center">Nuestro catálogo</p>
-                    <a href="#" class="btn btn_verdezeta btn-primary text-center">Descargar</a>
+                    <a href="{!! $textos->contacto_whatsapp!!}" class="btn btn_verdezeta btn-primary text-center">Pedilo por Whatsapp</a>
+                    <p class="text-white mt-2 fw-bold">O pedilo por email a sz@zetasemillas.com</p>
                 </div>
             </div>
         </div>

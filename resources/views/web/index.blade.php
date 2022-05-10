@@ -27,13 +27,13 @@
     <link rel="stylesheet" href="{{asset('/css/resize.css')}}">
 
 
-{{--    <link rel="preconnect" href="https://fonts.gstatic.com">--}}
-{{--    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">--}}
-{{--    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">--}}
+
+{{--    <link rel="preconnect" href="https://fonts.googleapis.com">--}}
+{{--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>--}}
+{{--    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">--}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -62,10 +62,10 @@
             <div class="col-sm-12 col-md-4">
                 <ul>
                     <li><a class="text-secondary" href="{{route("index")}}"><i class="fas fa-angle-right"></i> Sobre nosotros</a></li>
-                    <li><a class="text-secondary" href="{{route("index")}}"><i class="fas fa-angle-right"></i> Nuestros híbridos</a></li>
-                    <li><a class="text-secondary" href="{{route("index")}}"><i class="fas fa-angle-right"></i> Productos</a></li>
-                    <li><a class="text-secondary" href="{{route("index")}}"><i class="fas fa-angle-right"></i> Novedades</a></li>
-                    <li><a class="text-secondary" href="{{route("index")}}"><i class="fas fa-angle-right"></i> Contacto</a></li>
+                    <li><a class="text-secondary" href="{{route("index")."#girasol"}}"><i class="fas fa-angle-right"></i> Nuestros híbridos</a></li>
+                    <li><a class="text-secondary" href="{{route("index")."#catalogo"}}"><i class="fas fa-angle-right"></i> Productos</a></li>
+{{--                    <li><a class="text-secondary" href="{{route("index")}}"><i class="fas fa-angle-right"></i> Novedades</a></li>--}}
+                    <li><a class="text-secondary" href="{{route("index")."#contacto"}}"><i class="fas fa-angle-right"></i> Contacto</a></li>
                 </ul>
             </div>
             <div class="col-sm-12 col-md-4">
@@ -73,13 +73,13 @@
                     <li><a class="text-secondary" href="{{route("index")}}"><i class="fab fa-twitter"></i> Nuestro Twitter</a></li>
                     <li><a class="text-secondary" href="{{route("index")}}"><i class="fab fa-youtube"></i> Nuestro Youtube</a></li>
                     <li><a class="text-secondary" href="{{route("index")}}"><i class="fab fa-whatsapp"></i> Nuestro Whatsapp</a></li>
-                    <li><a class="text-secondary" href="{{route("index")}}"><i class="far fa-envelope"></i> Nuestro email</a></li>
+                    <li><a class="text-secondary" href="{{route("index")."#contacto"}}"><i class="far fa-envelope"></i> Nuestro email</a></li>
                 </ul>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <p class="text-center text-secondary p-2 m-2">Copyright 2021 - ZETA SEMILLAS</p>
+                <p class="text-center text-secondary p-2 m-2">Copyright 2022 - ZETA SEMILLAS</p>
             </div>
 
         </div>

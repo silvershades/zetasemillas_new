@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Auth::routes();
 /** HOME */
 //Route::get('/', 'App\Http\Controllers\PostController@index')->name('index');
 Route::get('/', 'App\Http\Controllers\WebInfoController@index')->name('index');
@@ -31,6 +30,8 @@ Route::get('/novedades', 'App\Http\Controllers\NewsHeaderController@index')->nam
 
 
 Route::group(['prefix' => 'zeta_admin', 'middleware' => 'can:isAdmin'], function () {
+
+    Auth::routes();
     /** users */
     Route::get('/', 'App\Http\Controllers\AdminController@index')->name('admin.index');
     Route::get('/productos', 'App\Http\Controllers\AdminController@productos_index')->name('admin.productos.index');
