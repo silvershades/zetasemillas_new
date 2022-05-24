@@ -87,7 +87,20 @@
             </div>
         </div>
     </article>
-
+    <section class="container-fluid " style="background-color: #eeeeee">
+        <div class="container row " style="margin:auto">
+            <div class="col-sm-12 col-lg-6">
+                <div class="p-3">
+                    <img src="{{asset('img/campo1.jpeg')}}" alt="" class="img-fluid w-100">
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <div class="p-3">
+                    <img src="{{asset('img/campo2.jpeg')}}" alt="" class="img-fluid w-100">
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="container-fluid" id="dondeestamos">
         <div class="container">
             <div class="d-flex align-items-center justify-content-center" style="min-height: 500px">
